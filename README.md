@@ -25,7 +25,6 @@ pip install socket statistics
 
 - 操作系统：兼容所有主要操作系统，包括 Windows, macOS, 和 Linux。
 - Python版本：Python 3，确保您的系统中已安装Python 3及以上版本。
-- 环境依赖：安装 `requirements.txt` 文件里的库。
 - 网络配置：确保客户端与服务器之间的网络畅通，无防火墙或路由器阻挡UDP端口。
 
 ## 使用说明
