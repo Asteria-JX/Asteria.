@@ -70,14 +70,14 @@ python server.py
 #### Client -> Server的报文格式
 
 ```bash
-| Seq_no   | Ver | Type | Src_Port | Dst_Port | Time  |        content
+| Seq_no   | Ver | Type | Src_Port | Dst_Port | Time  |        content        |
 | 2 Bytes  | 1B  | 16B  |    8B    |    8B    |  32B  |
 ```
 
 #### Server -> Client的报文格式
 
 ```bash
-| Seq_no   | Ver | Type | Time  |        content
+| Seq_no   | Ver | Type | Time  |        content        |
 | 2 Bytes  | 1B  | 16B  |  16B  |
 ```
 
